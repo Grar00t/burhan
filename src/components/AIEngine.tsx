@@ -7,14 +7,14 @@ import {
   Languages, MessageCircle, BarChart3, Network, GitGraph, Loader2,
 } from 'lucide-react';
 
+import MediaLab from './MediaLab';
+import TensorViz from './TensorViz';
+
 const NiyahPanel = lazy(() => import('./NiyahPanel'));
 const NiyahTrainingPanel = lazy(() => import('./NiyahTrainingPanel'));
 const NiyahBenchmark = lazy(() => import('./NiyahBenchmark'));
 const MSFPanel = lazy(() => import('./MSFPanel'));
-const MediaLab = lazy(() => import('./MediaLab'));
 const GrandDinner = lazy(() => import('./GrandDinner'));
-
-import TensorViz from './TensorViz';
 
 export function AIEngine() {
   const { activeTab, niyahMode, setNiyahMode } = useIDEStore();
