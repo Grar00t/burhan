@@ -1,0 +1,9 @@
+{
+  "name": "COIN MAX - Sovereign AI Command Center",
+  "description": "The strategic hub for Saudi Sovereign AI. Powering Project DRAGON403 with Niyah Engine v3.0, Three-Lobe architecture, and forensic surveillance of the Black Hole fraudulent networks.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}

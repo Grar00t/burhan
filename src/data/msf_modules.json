@@ -1,0 +1,604 @@
+{
+  "modules": [
+    {
+      "path": "auxiliary/admin/2wire/xslt_password_reset",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "2Wire XSLT Password Reset",
+      "platform": "2wire",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/android/google_play_store_uxss_xframe_rce",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Google Play Store UXSS X-Frame RCE",
+      "platform": "android",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/appletv/appletv_display_image",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Apple TV Display Image",
+      "platform": "appletv",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/dcerpc/cve_2020_1472_zerologon",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Zerologon (CVE-2020-1472)",
+      "platform": "windows",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/cisco_ios_xe_cli_exec_cve_2023_20198",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Cisco IOS XE CLI Execution (CVE-2023-20198)",
+      "platform": "cisco",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/gitlab_password_reset_account_takeover",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "GitLab Password Reset Account Takeover",
+      "platform": "multi",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/tomcat_ghostcat",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Apache Tomcat Ghostcat (AJP File Read/Inclusion)",
+      "platform": "multi",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/fortinet_fortiweb_create_admin",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Fortinet FortiWeb Create Admin",
+      "platform": "fortinet",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/http/grafana_auth_bypass",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Grafana Auth Bypass",
+      "platform": "multi",
+      "rank": "Good"
+    },
+    {
+      "path": "auxiliary/admin/http/hikvision_unauth_pwd_reset_cve_2017_7921",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Hikvision Unauth PWD Reset (CVE-2017-7921)",
+      "platform": "hikvision",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/dlink_dir_645_password_extractor",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "D-Link DIR-645 Password Extractor",
+      "platform": "dlink",
+      "rank": "Good"
+    },
+    {
+      "path": "auxiliary/admin/http/iis_auth_bypass",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Microsoft IIS Authentication Bypass",
+      "platform": "windows",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/linksys_wrt54gl_exec",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Linksys WRT54GL Remote Command Execution",
+      "platform": "linksys",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/netgear_r7000_backup_cgi_heap_overflow_rce",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Netgear R7000 Backup CGI Heap Overflow RCE",
+      "platform": "netgear",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/pihole_domains_api_exec",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Pi-hole Domains API Execution",
+      "platform": "linux",
+      "rank": "Good"
+    },
+    {
+      "path": "auxiliary/admin/http/wp_google_maps_sqli",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "WordPress Google Maps Plugin SQLi",
+      "platform": "wordpress",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/kerberos/forge_golden_ticket",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Forge Golden Ticket",
+      "platform": "windows",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/kerberos/ms14_068_kerberos_checksum",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "MS14-068 Kerberos Checksum Vulnerability",
+      "platform": "windows",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/ldap/rbcd",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Resource-Based Constrained Delegation (RBCD) Exploitation",
+      "platform": "windows",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/ldap/shadow_credentials",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Shadow Credentials Extractor",
+      "platform": "windows",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/gather/windows_dcsync",
+      "type": "auxiliary",
+      "category": "gather",
+      "name": "Windows DCSync Extractor",
+      "platform": "windows",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/ldap/vmware_vcenter_vmdir_auth_bypass",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "VMware vCenter vmdir Authentication Bypass",
+      "platform": "vmware",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/misc/brother_default_admin_auth_bypass_cve_2024_51978",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Brother Printer Default Admin Auth Bypass",
+      "platform": "hardware",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/dlink_dsl320b_password_extractor",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "D-Link DSL-320B Password Extractor",
+      "platform": "dlink",
+      "rank": "Good"
+    },
+    {
+      "path": "auxiliary/admin/http/fortra_filecatalyst_workflow_sqli",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Fortra FileCatalyst Workflow SQLi",
+      "platform": "multi",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/jboss_seam_exec",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "JBoss Seam Remote Command Execution",
+      "platform": "multi",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/joomla_registration_privesc",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Joomla! Registration Privilege Escalation",
+      "platform": "multi",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/manageengine_pmp_privesc",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "ManageEngine PMP Privilege Escalation",
+      "platform": "windows",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/netgear_r6700_pass_reset",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Netgear R6700 Password Reset",
+      "platform": "netgear",
+      "rank": "Good"
+    },
+    {
+      "path": "auxiliary/admin/http/wp_gdpr_compliance_privesc",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "WordPress GDPR Compliance Privilege Escalation",
+      "platform": "wordpress",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/kerberos/forge_ticket",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Kerberos Ticket Forgery (Golden/Silver Ticket)",
+      "platform": "windows",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/foreman_openstack_satellite_priv_esc",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Foreman/OpenStack Satellite Privilege Escalation",
+      "platform": "linux",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/gitstack_rest",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "GitStack REST API Command Execution",
+      "platform": "windows",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/hp_web_jetadmin_exec",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "HP Web JetAdmin Remote Code Execution",
+      "platform": "windows",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/ibm_drm_download",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "IBM Data Risk Manager File Download",
+      "platform": "linux",
+      "rank": "Good"
+    },
+    {
+      "path": "auxiliary/admin/http/ivanti_vtm_admin",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Ivanti vTM Admin Account Creation",
+      "platform": "multi",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/manageengine_dir_listing",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "ManageEngine Directory Listing",
+      "platform": "windows",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/http/netgear_soap_password_extractor",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Netgear SOAP Password Extractor",
+      "platform": "netgear",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/sysaid_admin_acct",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "SysAid Admin Account Creation",
+      "platform": "windows",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/ldap/ad_cs_cert_template",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "AD CS Certificate Template Manipulation",
+      "platform": "windows",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/misc/sercomm_dump_config",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Sercomm Router Configuration Dump",
+      "platform": "hardware",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/wp_automatic_plugin_privesc",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "WordPress Automatic Plugin Privilege Escalation",
+      "platform": "wordpress",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/http/wp_post_smtp_acct_takeover",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "WordPress Post SMTP Account Takeover",
+      "platform": "wordpress",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/kerberos/get_ticket",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Kerberos Ticket Retrieval",
+      "platform": "windows",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/misc/wol",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Wake-on-LAN (WOL) Magic Packet Sender",
+      "platform": "multi",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/maxdb/maxdb_cons_exec",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "MaxDB Console Execution",
+      "platform": "maxdb",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/motorola/wr850g_cred",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Motorola WR850G Credentials Extractor",
+      "platform": "motorola",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/ms/ms08_059_his2006",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Microsoft Host Integration Server 2006 Command Execution (MS08-059)",
+      "platform": "windows",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/mssql/mssql_enum",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Microsoft SQL Server Enumeration",
+      "platform": "mssql",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/mssql/mssql_enum_domain_accounts",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Microsoft SQL Server Domain Account Enumeration",
+      "platform": "mssql",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/mssql/mssql_exec",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Microsoft SQL Server Command Execution",
+      "platform": "mssql",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/mssql/mssql_ntlm_stealer",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Microsoft SQL Server NTLM Stealer",
+      "platform": "mssql",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/mysql/mysql_enum",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "MySQL Enumeration",
+      "platform": "mysql",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/mysql/mysql_sql",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "MySQL SQL Query Execution",
+      "platform": "mysql",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/natpmp/natpmp_map",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "NAT-PMP Port Mapper",
+      "platform": "multi",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/netbios/netbios_spoof",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "NetBIOS Name Service Spoofer",
+      "platform": "multi",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/networking/cisco_asa_extrabacon",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Cisco ASA SNMP Remote Code Execution (EXTRABACON)",
+      "platform": "cisco",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/networking/mikrotik_config",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "MikroTik Configuration Downloader",
+      "platform": "mikrotik",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/networking/ubiquiti_config",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Ubiquiti Configuration Downloader",
+      "platform": "ubiquiti",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/oracle/ora_ntlm_stealer",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Oracle NTLM Stealer",
+      "platform": "oracle",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/oracle/oracle_login",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Oracle Login Enumeration",
+      "platform": "oracle",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/postgres/postgres_readfile",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "PostgreSQL Server Local File Read",
+      "platform": "postgres",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/sap/sap_mgmt_con_osexec",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "SAP Management Console OS Command Execution",
+      "platform": "sap",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/scada/modicon_command",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "Schneider Modicon PLC Command execution",
+      "platform": "scada",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/smb/psexec_ntdsgrab",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "SMB PSExec NTDS.dit Stealer",
+      "platform": "windows",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/admin/smb/ms17_010_command",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "MS17-010 EternalBlue Command Execution",
+      "platform": "windows",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/admin/vmware/vcenter_forge_saml_token",
+      "type": "auxiliary",
+      "category": "admin",
+      "name": "VMware vCenter SAML Token Forgery",
+      "platform": "vmware",
+      "rank": "Excellent"
+    },
+    {
+      "path": "auxiliary/analyze/crack_windows",
+      "type": "auxiliary",
+      "category": "analyze",
+      "name": "Analyze/Crack Windows Hashes",
+      "platform": "windows",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/bnat/bnat_scan",
+      "type": "auxiliary",
+      "category": "bnat",
+      "name": "BNAT Router Scanner",
+      "platform": "multi",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/client/sms/send_text",
+      "type": "auxiliary",
+      "category": "client",
+      "name": "SMS Text Sender",
+      "platform": "multi",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/cloud/aws/enum_ec2",
+      "type": "auxiliary",
+      "category": "cloud",
+      "name": "AWS EC2 Instance Enumeration",
+      "platform": "aws",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/cloud/aws/enum_s3",
+      "type": "auxiliary",
+      "category": "cloud",
+      "name": "AWS S3 Bucket Enumeration",
+      "platform": "aws",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/cloud/kubernetes/enum_kubernetes",
+      "type": "auxiliary",
+      "category": "cloud",
+      "name": "Kubernetes Cluster Enumeration",
+      "platform": "kubernetes",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/gather/get_user_spns",
+      "type": "auxiliary",
+      "category": "gather",
+      "name": "Enumerate Kerberoastable accounts (via Impacket)",
+      "platform": "windows",
+      "rank": "Normal"
+    },
+    {
+      "path": "auxiliary/gather/ldap_query",
+      "type": "auxiliary",
+      "category": "gather",
+      "name": "LDAP Query (Enum Kerberoastable SPNs)",
+      "platform": "windows",
+      "rank": "Normal"
+    }
+  ]
+}

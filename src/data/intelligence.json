@@ -1,0 +1,283 @@
+{
+  "nameservers": [
+    {
+      "hostname": "ns1.elryad.net",
+      "ip": "162.55.86.195",
+      "parentDomain": "elryad.net",
+      "totalDomains": 75,
+      "domains": [
+        "farmsuae.com", "hismatours.com", "digital-learning-courses.com", "aldamakhin.com", 
+        "faafirm.com", "ban-sa.net", "al-emaar.net", "edtamaken.com", "reefi-gov.com", 
+        "ofoqalawael.com", "alwatanpark.com", "altohami.com", "spc-sa.co", "tajfm.com", 
+        "atr-sa.com", "riyadhcertifiedtranslation.com", "csi-ksa.com", "alheyad.com", 
+        "ealanharaj.com", "riyadhtranslation.net", "anwarcom.com", "altamimi-auto.com", 
+        "muqawel-ksa.net", "samaoffice.com", "samtksa.com", "saudibina.com", "turkstore-sa.com", 
+        "turathunaizah.com", "marounaalemdad.com", "rontvita.com", "qcabins.net", "fan-alt.com", 
+        "ekraaaa.com", "titanthrutubing.com", "alhodatrading.com", "duram-power.com", 
+        "xsay-ksa.com", "carsmazadat.com", "skygatesa.com", "qwtdrm.com", "kasaab.com", 
+        "rwabet.org", "rowad-u.com", "maarod.com", "itqan-co.com", "alrugilawfirm.com", 
+        "solutions-consultancy.com", "roqitech.com", "jia-gr.com", "mainstandards.net", 
+        "healthyattack.com", "fixxil.com", "muqam.net", "morajea.com", "clickcompany.com.sa", 
+        "clk.sa", "jftc.com.sa", "nawat.org.sa", "gtc.sa", "mansourlf.com", "etimadhr.com", 
+        "seedal.com", "almasarat-mix.com", "alshblan.sa", "muealimun.org.sa", "gulfgate-ksa.com", 
+        "sabaik.net", "asm-ksa.com", "wesams.com", "anjad.sa", "alshammrilaw.com", 
+        "ciyclub.sa", "profclinic.sa", "techflow.com.sa"
+      ],
+      "registrant": "شركة فيض التقنية للتجارة",
+      "forensicProfile": {
+        "profileType": "commercialRegistry",
+        "companyName": {
+          "arabic": "شركة فيض التقنية للتجارة",
+          "english": "Faiz Technical Trading Company"
+        },
+        "unifiedNationalNumbers": {
+          "main": "7016120821",
+          "opc": "7009399697"
+        },
+        "commercialRegistryNumber": "1010600683",
+        "operationalStatus": {
+          "value": "active",
+          "displayArabic": "نشط",
+          "displayEnglish": "Active"
+        },
+        "capital": {
+          "amount": 1000000,
+          "currency": "SAR",
+          "formatted": "1,000,000 SAR"
+        },
+        "issueDate": "2019-10-23",
+        "entityType": {
+          "value": "onePersonCompany",
+          "displayArabic": "شركة شخص واحد",
+          "displayEnglish": "One Person Company"
+        },
+        "licensedActivities": [
+          {
+            "categoryArabic": "الجملة",
+            "categoryEnglish": "Wholesale",
+            "description": "Security Devices, Monitoring & Navigation equipment (Wholesale)"
+          },
+          {
+            "categoryArabic": "التجزئة",
+            "categoryEnglish": "Retail",
+            "description": "Unmanned Aerial Vehicles (Drones) (Retail)"
+          }
+        ],
+        "apiEnrichment": {
+          "enabled": true,
+          "lastFetched": "2026-04-21T02:12:00Z",
+          "apiSource": "wathq-sa",
+          "endpointUsed": "/v5/commercialregistration/info/1010600683",
+          "statusCode": 200,
+          "ownersAndManagers": [
+            { "name": "Forensic redacted", "role": "Owner" }
+          ],
+          "fullAddress": {
+            "city": "Riyadh",
+            "district": "Al Malqa"
+          }
+        },
+        "relationalIntelligence": {
+          "linkedDomains": ["farmsuae.com", "hismatours.com", "aldamakhin.com"],
+          "nameserverInfrastructure": ["ns1.elryad.net", "ns2.elryad.net"],
+          "crossReferences": [
+            { "source": "Phalanx Scan", "referenceId": "PX-992", "context": "Supply chain risk" }
+          ]
+        },
+        "tacticalIntelligence": {
+          "threatSurface": ["IoT/CCTV Telemetry", "Drone Retail Access", "Navigation Signal Spoofing"],
+          "c_uas_vulnerability": "high",
+          "electronicWarfareResilience": {
+            "jamming": "Low (Standard ISM)",
+            "spoofing": "High Vulnerability (No Signal Auth)",
+            "meaconing": "Critical Risk (Replay Weakness)"
+          },
+          "transitionHistory": [
+            { "date": "2025-01-10", "event": "Meaconing vulnerability detected in core UAV fleet", "impact": "Critical" },
+            { "date": "2025-11-22", "event": "Acquisition of anti-spoofing software frameworks", "impact": "Positive Defense Shift" }
+          ],
+          "predictedEvolution": [
+            { "timeframe": "3 Months", "scenario": "Integration of dual-band GNSS (L1/L5)", "probability": 75 },
+            { "timeframe": "6 Months", "scenario": "Local market frequency lobbying", "probability": 60 }
+          ]
+        },
+        "commercialAssessment": {
+          "estimatedReportValue": "25,000 - 45,000 SAR",
+          "targetClients": ["SAMI", "Ministry of Defense", "Aramco Security"],
+          "monetizationStrategy": "Focus on supply chain audit for high-security zones using Meaconing vulnerability as the primary hook.",
+          "salesPitchDraft": "Faiz Technical's core UAV fleet shows critical vulnerabilities to signal meaconing. A tactical audit of their telemetry links is recommended before integrating their hardware into Level-1 secure infrastructure."
+        },
+        "lastUpdated": "2026-04-21T02:12:00Z",
+        "source": {
+          "registry": "Saudi Commercial Registry via Wathq",
+          "verificationLevel": "official"
+        }
+      },
+      "similarDomains": [
+        "techf10.africa", "techf1.biz", "techf1.com", "techf1.co.uk", "techf1.net", 
+        "techf1r3.net", "techf1.solutions", "techf33lz.com", "tech-f3a9d1e7c8425b.com", "techf47.org"
+      ]
+    },
+    {
+      "hostname": "ns1.techflow.com.sa",
+      "ip": "141.136.42.11",
+      "parentDomain": "techflow.com.sa",
+      "totalDomains": 5,
+      "domains": ["techflow.com.sa", "techflow-security.sa", "tf-safety.com", "tf-monitoring.net", "tf-cbrn.sa"],
+      "registrant": "شركة تك فلوب",
+      "forensicProfile": {
+        "profileType": "commercialRegistry",
+        "companyName": {
+          "arabic": "شركة تك فلوب",
+          "english": "Tech Flow Company"
+        },
+        "unifiedNationalNumbers": {
+          "main": "7001435258",
+          "opc": ""
+        },
+        "commercialRegistryNumber": "1010435258",
+        "operationalStatus": {
+          "value": "active",
+          "displayArabic": "نشط",
+          "displayEnglish": "Active"
+        },
+        "capital": {
+          "amount": 500000,
+          "currency": "SAR",
+          "formatted": "500,000 SAR"
+        },
+        "issueDate": "2015-04-12",
+        "entityType": {
+          "value": "llc",
+          "displayArabic": "شركة تضامن / ذات مسؤولية محدودة",
+          "displayEnglish": "Partnership / Limited Liability"
+        },
+        "licensedActivities": [
+          {
+            "categoryArabic": "استيراد وتوزيع",
+            "categoryEnglish": "Import & Distribution",
+            "description": "Medical Devices (SFDA Licensed), Security & Safety Equipment"
+          },
+          {
+            "categoryArabic": "الأمن والسلامة",
+            "categoryEnglish": "Security & Safety",
+            "description": "CBRN/Hazmat Detection, Radiation Protection, Monitoring Systems, Portal Monitors"
+          },
+          {
+            "categoryArabic": "الحلول الصناعية",
+            "categoryEnglish": "Industrial Solutions",
+            "description": "Firefighting, Rescue Equipment, Unmanned Aerial Vehicles (Drones)"
+          }
+        ],
+        "apiEnrichment": {
+          "enabled": true,
+          "lastFetched": "2026-04-21T02:19:00Z",
+          "apiSource": "public_sfda + osint",
+          "endpointUsed": "SFDA Unified List + techflow.com.sa",
+          "statusCode": 200,
+          "ownersAndManagers": [
+            { "name": "Jazi Al-Mokhlef", "role": "General Manager" }
+          ],
+          "fullAddress": {
+            "street": "Prince Nasser bin Farhan St, Bldg 4140",
+            "district": "Al Sahafa",
+            "city": "Riyadh",
+            "zip": "13321"
+          }
+        },
+        "relationalIntelligence": {
+          "linkedDomains": ["techflow.com.sa"],
+          "nameserverInfrastructure": ["ns1.techflow.com.sa", "ns2.techflow.com.sa"],
+          "crossReferences": [
+            { "source": "SFDA Unified List", "referenceId": "1010435258", "context": "Importer of Medical & Security Devices" },
+            { "source": "Relational Scan", "referenceId": "FT-LNK", "context": "Same threat surface as Faiz Technical Trading" }
+          ]
+        },
+        "tacticalIntelligence": {
+          "threatSurface": ["C2 Telemetry", "Drone Supply Chain", "CBRN Monitoring"],
+          "c_uas_vulnerability": "high",
+          "electronicWarfareResilience": {
+            "jamming": "Low (Commercial RF)",
+            "spoofing": "Vulnerable (Unencrypted GNSS)",
+            "meaconing": "Exposed (Relay susceptible)"
+          },
+          "transitionHistory": [
+            { "date": "2024-06-15", "event": "Expanded portfolio to include C-UAS tactical radars", "impact": "Portfolio Diversification" },
+            { "date": "2025-03-05", "event": "Marketing overhaul: Added 'GNSS Robustness' branding", "impact": "Strategic Pivot" }
+          ],
+          "predictedEvolution": [
+            { "timeframe": "2 Months", "scenario": "Deployment of 'Secured Link' telemetry modules", "probability": 90 },
+            { "timeframe": "5 Months", "scenario": "Inertial Navigation (INS) hardware standard", "probability": 80 }
+          ]
+        },
+        "commercialAssessment": {
+          "estimatedReportValue": "15,000 - 30,000 SAR",
+          "targetClients": ["GCAA", "King Khalid International Airport", "Private Security Contractors"],
+          "monetizationStrategy": "Capitalize on their expanding C-UAS radar portfolio. Sell comparative analysis against established EU/US standards.",
+          "salesPitchDraft": "Tech Flow is aggressively pivoting towards GNSS robustness branding. However, our forensic scan reveals software-patchable meaconing risks that require a third-party validation report to meet GCAA resilience standards."
+        },
+        "lastUpdated": "2026-04-21T02:19:00Z",
+        "source": {
+          "registry": "Saudi Commercial Registry + SFDA Official List",
+          "verificationLevel": "forensic"
+        }
+      },
+      "similarDomains": [
+        "techflow.sa", "techflow.net.sa", "techflow-ksa.com", "tech-flow.com"
+      ]
+    },
+    {
+      "hostname": "ns2.elryad.net",
+      "ip": "162.55.86.195",
+      "parentDomain": "elryad.net"
+    },
+    {
+      "hostname": "ns1.fake-invest-sa.com",
+      "ip": "45.138.74.22",
+      "parentDomain": "fake-invest-sa.com",
+      "totalDomains": 1,
+      "domains": ["elite-trading-pro.sa"],
+      "registrant": "Private Registry (Anonymous)",
+      "forensicProfile": {
+        "profileType": "scamHunter",
+        "scamDomain": "elite-trading-pro.sa",
+        "scamName": {
+          "arabic": "إيليت تريدنج برو",
+          "english": "Elite Trading Pro"
+        },
+        "scamRiskScore": 96,
+        "scamCategory": "fake_trading",
+        "evidence": [
+          {
+            "type": "dns",
+            "description": "Domain registered exactly 11 days ago.",
+            "severity": "critical"
+          },
+          {
+            "type": "whois",
+            "description": "Registrant matches known scam cluster 'Ocean-Global-Fraud'.",
+            "severity": "high"
+          },
+          {
+            "type": "template_match",
+            "description": "Source code matches 23 previous fake trading platforms.",
+            "severity": "critical"
+          }
+        ],
+        "linkedDomains": ["elite-trading.io", "pro-invest-sa.com", "secure-trading-sa.net"],
+        "redFlags": [
+           "Promised returns: 400% per month",
+           "Falsified CMA (Capital Market Authority) license",
+           "Aggressive WhatsApp solicitation",
+           "No physical office in KSA"
+        ],
+        "victimCountEstimate": 1850,
+        "status": "active_scam",
+        "lastUpdated": "2026-04-21T02:45:00+03:00",
+        "source": {
+          "verificationLevel": "high"
+        }
+      }
+    }
+  ]
+}

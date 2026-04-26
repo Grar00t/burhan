@@ -1,0 +1,10 @@
+[
+  {
+    "id": "1",
+    "input": "write a sovereign login function",
+    "expectedIntent": "write a sovereign login function",
+    "expectedDialect": "english",
+    "expectedDomain": "code",
+    "expectedOutputContains": ["sovereign", "local"]
+  }
+]
