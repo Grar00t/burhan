@@ -1,15 +1,27 @@
 {
-  "name": "react-example",
+  "name": "burhan",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "BURHĀN — Sovereign AI Hub orchestrating Operation Black Hole / DRAGON403 forensic command.",
   "type": "module",
+  "license": "AGPL-3.0",
+  "homepage": "https://khawrizm.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Grar00t/burhan.git"
+  },
+  "author": {
+    "name": "Sulaiman Al-Shammari",
+    "email": "admin@gratech.sa"
+  },
   "scripts": {
     "dev": "tsx server.ts",
     "build": "vite build",
     "start": "NODE_ENV=production node server.ts",
     "preview": "vite preview",
     "clean": "rm -rf dist",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "test": "vitest run"
   },
   "dependencies": {
     "@isomorphic-git/lightning-fs": "^4.6.2",
@@ -33,7 +45,6 @@
     "react-dom": "^19.0.0",
     "react-markdown": "^10.1.0",
     "react-syntax-highlighter": "^16.1.1",
-    "recharts": "^3.8.1",
     "remark-gfm": "^4.0.1",
     "tailwind-merge": "^3.5.0",
     "tesseract.js": "^7.0.0",
